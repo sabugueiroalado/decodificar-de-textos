@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="imagex/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="assets/logoAlura.png" alt="Logo Alura">
+    </header>
+    <main class="conteudo">
+        <section class="main__texto">
+            <textarea class="main__area__texto" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="informacao">
+                <img class="informacao__imagem" src="assets/exclamação.png" alt="Sinal de Exclamação">
+                <h6 class="informacao__aviso">Apenas letras minúsculas sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="botoes__criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="botoes__descriptografar" onclick="btnDescriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="main__mensagem">
+            <textarea class="mensagem" cols="20" rows="10" placeholder="Nenhum texto encontrado" readonly></textarea>
+            <button class="copiar">Copiar</button>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Gabriel I. Heinz.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
