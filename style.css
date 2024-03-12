@@ -144,3 +144,74 @@
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+/* @media */
+@media screen and (max-width: 950px) {
+    body {
+        width: auto;
+        gap: 5px;
+    }
+
+    main {
+        display: block;
+    }
+
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__texto {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .main__area__texto {
+        width: 80%;
+        height: 40vh;
+        font-size: 24px;
+    }
+
+    .informacao {
+        justify-content: center;
+    }
+
+    .botoes {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .botoes__criptografar,
+    .botoes__descriptografar {
+        width: 100%;
+    }
+
+    .main__mensagem {
+        margin-top: 20px;
+    }
+
+    .mensagem {
+        width: 80%;
+        height: 50vh;
+        font-size: 24px;
+    }
+
+    .copiar {
+        width: 80%;
+    }
+
+    .rodape {
+        position:relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        background-color: #F9F5F6;
+        padding: 20px; 
+        font-family: "Inter", sans-serif; 
+        font-size: 1rem; 
+        color: #1B1A55; 
+    }
+}
+
